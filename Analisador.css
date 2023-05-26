@@ -1,0 +1,68 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 66, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+header{
+    text-align: auto;
+    margin: 5%;
+}
+section{
+    margin: auto;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+footer{
+    margin: 2%;
+    font-size: 18px;
+    text-align: center;
+}
+select{
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 207, 122);
+    margin: 2px;
+    width: 200px;
+}
+button{
+    font-weight: bold;
+    background-color: rgb(27, 211, 58);
+    border-color: rgb(10, 165, 23);
+    border-radius: 500px;
+} 
+input#final{
+    font-weight: bold;
+    border-color: rgb(14, 165, 14);
+    border-radius: 500px;
+    margin-left : 1px;
+    margin: 2px;
+    background-color: rgb(19, 202, 19);
+    font-size: 10pt;
+}
+input#clear{
+    margin-left : 12px;
+    margin: 2px;
+    font-weight: bold;
+    border-color: rgb(255, 115, 0);
+    border-radius: 500px;
+    background-color: rgb(255, 174, 0);
+    font-size: 10pt;
+}
+h1{
+    text-align: center;
+}
+div#res{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 8px;
+    width: 350px;
+    border-radius: 2%;
+    text-align: center;
+    background-color: rgba(250, 184, 84, 0.623);
+    padding: 1%;
+}
