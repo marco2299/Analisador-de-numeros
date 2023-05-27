@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- faz com que o site ajuste o tamanho para diferentes tamanhos de tela. -->
     <title>Analisador</title>
     <link rel="stylesheet" href="Analisador.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <h1>Analisador de Números</h1>
-        <section> 
+    </header>
+        <section class="container"> 
             <div>
                 <strong>Número (entre 1 a 100):</strong> <input type="number" name="n" id="num" onkeypress="pressionar()">
-                <button  onclick="adc()"> Adicionar </button>
+                <button onclick="adc()"> Adicionar </button>
                 <br><br>
-                <select  name="val" id="valores" size="10" > </select>  <!-- tabela de valores -->
+                <select name="val" id="valores" size="10"></select>  <!-- tabela de valores -->
                 <br>
                 <input type="button" value="Finalizar" id="final" onclick="finalizar()">
                 <input type="button" value="Limpar" id="clear" onclick="limparValores()">
@@ -24,11 +25,9 @@
                 Adicione números e irei te mostrar algumas informações sobre eles!
             </div>
         </section>
-    </header>
-        <footer>
-            <strong> &copy;Ocram Programs </strong>
-        </footer>
-
-    <script src="Scpt.js"> </script> 
+    <footer class="site-footer">
+        <strong>&copy;Ocram Programs</strong>
+    </footer>
+    <script src="Scpt.js"></script> 
 </body>
 </html>
